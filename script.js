@@ -1,28 +1,69 @@
 const player = {
- sayHello: function (otherPersonsName) {
-     console.log("hello " + otherPersonsName + " nice to meet you! ")
- },
+    name: "Yeha",
+    age: "20",
+}
+
+console.log(player.age);
+
+function plus(a,b) {
+ console.log(a+b); 
 };
 
-// console.log(player.name);
-player.sayHello("yeha");
-
-const daysOfWeek = [ "mon", "tue", "wed", "thu", "fri", "sat" ];
-
-console.log(daysOfWeek[0]);
+plus(3,5);
 
 
-const a = 5;
-const isYehaFat = true;
-
-console.log(a);
-console.log(isYehaFat);
 
 
-const toBuy = [ "potato", "tomato", "pizza"  ];
+const calculater = {
+    
+    add: function (a,b) { 
+        console.log (a+b)
+    },
+    
+
+};
+
+calculater.add(3,4)  
+
+console.log(calculater.add(3,4));
 
 
-toBuy[2] = "water";
 
-console.log(toBuy);
+function add(a,b) {
+    console.log(a+b)
+};
 
+add(4,3);
+
+
+
+const player = {
+    name: "Yeha",
+    sayHello: function() {
+        console.log()
+
+    }
+}
+
+console.log(player.name) 
+// -- yeha
+player.sayHello();
+// --?
+
+
+// function sayhello (name) {
+//     console.log("Hello " + name )
+// };
+
+// sayhello("nico")
+
+
+const age = 96;
+
+function calculateKrAge(ageOfForeigner) {
+    return ageOfForeigner + 2;
+}
+
+const krAge = calculateKrAge(age);
+
+console.log(krAge);
