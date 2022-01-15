@@ -51,11 +51,11 @@ player.sayHello();
 // --?
 
 
-// function sayhello (name) {
-//     console.log("Hello " + name )
-// };
+function sayhello (name) {
+    console.log("Hello " + name )
+};
 
-// sayhello("nico")
+sayhello("nico")
 
 
 const age = 96;
