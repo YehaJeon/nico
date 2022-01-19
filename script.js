@@ -6,7 +6,12 @@
 
 //  console.log(title.innerText)
 
-const hellos = document.getElementsByClassName("hello")
+// const hellos = document.getElementsByClassName("hello")
 
-console.log(hellos)
-   
+// console.log(hellos)
+
+// const title = document.getElementsByTagName("h1")
+
+const title = document.querySelector(".hello")
+
+console.log(title)
