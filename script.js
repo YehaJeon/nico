@@ -1,4 +1,2 @@
-document.title
-
-
+document.title = nico
 
