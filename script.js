@@ -41,17 +41,17 @@ const h1 = document.querySelector("div.hello:first-child h1");
 
 
 function handleTitleClick() {
-   if (h1.className === "active"){
+   if (h1.className === "clicked"){
        h1.className = "";
    }else {
-       h1.className = "active";
+       h1.className = "clicked";
    }
    
  }
 
  function handleTitleClick() {
     if (h1.className === ""){
-        h1.className = "active";
+        h1.className = "clicked";
     }else {
         h1.className = "";
     }
@@ -59,16 +59,26 @@ function handleTitleClick() {
   }
 
  
- 
+  
  h1.addEventListener("click", handleTitleClick)
 
 
 
  function handleTitleClick() {
-   if (h1.className === "active"){
+     const clickedClss = "clicked"
+   if (h1.className === "clickedClss"){
        h1.className = "";
    }else {
-       h1.className = "active";
+       h1.className = "clickedClss";
    }
    
+ }
+
+
+ function handleTitleClick() {
+    const clickedClass = "clicked";
+    if (h1.classList.contains(clickedClass)){
+        
+    }
+    
  }
