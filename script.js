@@ -26,15 +26,49 @@
 const h1 = document.querySelector("div.hello:first-child h1");
 
 
-function handleTitleClick() {
-   const currentColor = h1.style.color;
-   let newColor;
-   if ( currentColor === "blue"){
-       newColor = "tomato";
-   }else {
-       newColor = "blue";
-   }
-   h1.style.color = newColor;
-}
+// function handleTitleClick() {
+//    const currentColor = h1.style.color;
+//    let newColor;
+//    if ( currentColor === "blue"){
+//        newColor = "tomato";
+//    }else {
+//        newColor = "blue";
+//    }
+//    h1.style.color = newColor;
+// }
 
-h1.addEventListener("click", handleTitleClick)
+// h1.addEventListener("click", handleTitleClick)
+
+
+function handleTitleClick() {
+   if (h1.className === "active"){
+       h1.className = "";
+   }else {
+       h1.className = "active";
+   }
+   
+ }
+
+ function handleTitleClick() {
+    if (h1.className === ""){
+        h1.className = "active";
+    }else {
+        h1.className = "";
+    }
+    
+  }
+
+ 
+ 
+ h1.addEventListener("click", handleTitleClick)
+
+
+
+ function handleTitleClick() {
+   if (h1.className === "active"){
+       h1.className = "";
+   }else {
+       h1.className = "active";
+   }
+   
+ }
