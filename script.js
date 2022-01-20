@@ -12,6 +12,15 @@
 
 // const title = document.getElementsByTagName("h1")
 
-const title = document.querySelector(".hello")
+// const title = document.querySelector(".hello")
 
-console.log(title)
+// console.log(title)
+
+
+function handleWindowResize(){
+    document.body.style.backgroundColor = "tomato";
+}
+
+window.addEventListener("resize", handleWindowResize)
+
+const title
